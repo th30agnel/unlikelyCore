@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bugatti&display=swap" rel="stylesheet">
+    <title>Shop - Unlikely Jewelry</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Unlikely Logo" class="logo-img"> <!-- Placeholder for logo -->
+        </div>
+        <h1 class="shop-name">Unlikely</h1>
+        <p class="motto">Jewelry Unlike Any Other!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">View Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/product1.jpg" alt="Product 1">
+                <h3>Elegant Necklace</h3>
+                <p>$50.00</p>
+                <button onclick="addToCart('Elegant Necklace', 50)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="Product 2">
+                <h3>Beautiful Earrings</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Beautiful Earrings', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/product3.jpg" alt="Product 3">
+                <h3>Stylish Bracelet</h3>
+                <p>$40.00</p>
+                <button onclick="addToCart('Stylish Bracelet', 40)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Unlikely Jewelry Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
